@@ -1,6 +1,11 @@
 #include "DesignPatterns/Proxy/proxy.hpp"
+#include "thread/thread.hpp"
+#include "concepts/concepts.hpp"
 
-int main(){
+int main()
+{
 
-    std::cout<<"Hellow world"<<std::endl;
+    std::cout << "===Main function=====" << std::endl;
+    thread_test_func();
+    concepts_test();
 }
